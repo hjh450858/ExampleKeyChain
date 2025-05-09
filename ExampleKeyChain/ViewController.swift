@@ -164,7 +164,7 @@ class ViewController: UIViewController {
                 self.vm.resultDataEvent.accept(result)
             } else {
                 self.vm.indicatorEvent.accept(false)
-                self.vm.resultDataEvent.accept("fail to read...")
+                self.vm.resultDataEvent.accept("fail to read... :(")
             }
         }.disposed(by: disposeBag)
         
